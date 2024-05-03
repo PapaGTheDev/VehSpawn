@@ -34,7 +34,7 @@ def write_to_console(vehicles):
         print(vehicle)
 
 def main():
-    folder_path = "/www/wwwroot/atlanticrp/FiveM/txData/AtlanticRP/resources/[Vehicles]/"
+    folder_path = "Vehicles Folder"
     vehicles = process_folder(folder_path)
     write_to_console(vehicles)
 
