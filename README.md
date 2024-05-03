@@ -10,7 +10,10 @@ Python 3.10.12
 Install:
 Install Requirements
 Clone Repo
-
+Replace: 
+    folder_path = "Vehicles Folder"
+    
+With your actual vehicle's folder name, in our case its [Vehicles] (you need to supply full path!)
 Usage: 
 python3 vehicles.py
 
