@@ -20,7 +20,7 @@ def process_folder(folder_path):
                 if model_name:
                     vehicles.append({
                         'model': model_name,
-                        'name': 'changeme',
+                        'name': 'Dilettante Patrol',
                         'brand': 'changeme',
                         'price': 12000,
                         'category': 'changeme',
@@ -31,10 +31,10 @@ def process_folder(folder_path):
 
 def write_to_console(vehicles):
     for vehicle in vehicles:
-        print(vehicle)
+        print("{ model = '%s',   name = '%s',   brand = '%s',   price = %d,   category = '%s',   type = '%s',   shop = '%s' }," % (vehicle['model'], vehicle['name'], vehicle['brand'], vehicle['price'], vehicle['category'], vehicle['type'], vehicle['shop']))
 
 def main():
-    folder_path = "Vehicles Folder"
+    folder_path = "Vehicle Folder"
     vehicles = process_folder(folder_path)
     write_to_console(vehicles)
 
